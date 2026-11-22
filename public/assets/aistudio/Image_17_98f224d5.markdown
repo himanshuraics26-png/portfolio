@@ -1,0 +1,230 @@
+---
+name: Cosmic Synthwave Glass
+colors:
+  surface: '#11121f'
+  surface-dim: '#11121f'
+  surface-bright: '#373846'
+  surface-container-lowest: '#0c0d19'
+  surface-container-low: '#1a1b27'
+  surface-container: '#1e1f2c'
+  surface-container-high: '#282936'
+  surface-container-highest: '#333442'
+  on-surface: '#e2e1f3'
+  on-surface-variant: '#cbc3d7'
+  inverse-surface: '#e2e1f3'
+  inverse-on-surface: '#2e2f3d'
+  outline: '#958ea0'
+  outline-variant: '#494454'
+  surface-tint: '#d0bcff'
+  primary: '#d0bcff'
+  on-primary: '#3c0091'
+  primary-container: '#a078ff'
+  on-primary-container: '#340080'
+  inverse-primary: '#6d3bd7'
+  secondary: '#4cd7f6'
+  on-secondary: '#003640'
+  secondary-container: '#03b5d3'
+  on-secondary-container: '#00424e'
+  tertiary: '#ddb7ff'
+  on-tertiary: '#490080'
+  tertiary-container: '#b76dff'
+  on-tertiary-container: '#400071'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#e9ddff'
+  primary-fixed-dim: '#d0bcff'
+  on-primary-fixed: '#23005c'
+  on-primary-fixed-variant: '#5516be'
+  secondary-fixed: '#acedff'
+  secondary-fixed-dim: '#4cd7f6'
+  on-secondary-fixed: '#001f26'
+  on-secondary-fixed-variant: '#004e5c'
+  tertiary-fixed: '#f0dbff'
+  tertiary-fixed-dim: '#ddb7ff'
+  on-tertiary-fixed: '#2c0051'
+  on-tertiary-fixed-variant: '#6900b3'
+  background: '#11121f'
+  on-background: '#e2e1f3'
+  surface-variant: '#333442'
+typography:
+  display-lg:
+    fontFamily: Sora
+    fontSize: 56px
+    fontWeight: '700'
+    lineHeight: 64px
+    letterSpacing: -0.03em
+  display-lg-mobile:
+    fontFamily: Sora
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Sora
+    fontSize: 32px
+    fontWeight: '600'
+    lineHeight: 40px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Sora
+    fontSize: 26px
+    fontWeight: '600'
+    lineHeight: 34px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Sora
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Sora
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: 0em
+  title-lg:
+    fontFamily: Outfit
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 26px
+    letterSpacing: 0em
+  title-md:
+    fontFamily: Outfit
+    fontSize: 16px
+    fontWeight: '500'
+    lineHeight: 24px
+    letterSpacing: 0.01em
+  body-lg:
+    fontFamily: Outfit
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: 0.01em
+  body-md:
+    fontFamily: Outfit
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  body-sm:
+    fontFamily: Outfit
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 18px
+    letterSpacing: 0.02em
+  label-md:
+    fontFamily: Space Grotesk
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.06em
+  label-sm:
+    fontFamily: Space Grotesk
+    fontSize: 10px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.08em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 2.5rem
+  margin-mobile: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+The design system projects an interstellar, immersive, and ethereal sonic journey. It transforms digital streaming into an exploration through deep cosmos, evoking wonder, flow-state focus, and futuristic luxury. The target audience comprises electronic, ambient, synthwave, and audiophile listeners alongside digital-native music discoverers who prize visual atmosphere as an integral dimension of the auditory experience.
+
+The design movement combines **Deep Glassmorphism** with **Atmospheric Space Minimalism**. Rather than flat panels, interfaces manifest as translucent crystalline viewports hovering over deep nebulae. Tactile luminance is paramount: elements do not simply sit upon the background; they absorb, refract, and glow against the void. Subtle chromatic halos, frosted cosmic dust textures, and razor-sharp typographic structures prevent the UI from dissolving into darkness, maintaining precision utility amidst rich spatial depth.
+
+## Colors
+
+The palette draws directly from cosmic nebulae, stellar radiation, and deep gravitational voids.
+
+- **Primary (`#8B5CF6`) & Tertiary (`#A855F7`)**: Radiant violet and neon purple serve as the system's core energy carriers. Applied to primary playback states, dynamic equalizer highlights, progress indicators, and active ambient halos.
+- **Secondary (`#06B6D4`) & Accent Cyan (`#22D3EE`)**: Electric cyan acts as a crisp counter-frequency. Used for live spatial audio badges, high-contrast toggles, stream fidelity markers, and scrubber heads.
+- **Cosmic Neutrals (`#070814`, `#0B0E23`)**: Deep obsidian-navy canvas tones ground the interface, avoiding pure sterile `#000000` to preserve chromatic depth when layered beneath translucent frosted cards.
+- **Luminescent Highlights**: Translucent white (`rgba(255, 255, 255, 0.08)` to `rgba(255, 255, 255, 0.15)`) drives the frosted glass boundaries, simulating star-lit rim lighting.
+- **Typography Neutrals**: Pristine starlight white (`#FFFFFF` to `#F8FAFC`) for core headings, tempered by diffuse lavender (`#CBD5E1` and `#C4B5FD`) for track metadata, duration trackers, and inactive navigational glyphs.
+
+## Typography
+
+The typographic hierarchy harmonizes geometric precision with technical instrument aesthetics.
+
+- **Headlines (`Sora`)**: Distinctive geometric apertures with a cosmic, futuristic silhouette. Headlines command structural authority across album viewports and editorial banners.
+- **Body (`Outfit`)**: Exceptionally smooth and readable at dense sizes. Carries artist bios, track descriptions, and lyric displays without visual fatigue.
+- **Labels & System Meta (`Space Grotesk`)**: Technical, monoline, and rhythmic. Employed in uppercase tracking for timestamps, audio bitrates (e.g., `FLAC 96kHz/24bit`), pill tags, and navigational breadcrumbs to reinforce the spacecraft-cockpit fidelity.
+
+## Layout & Spacing
+
+The spatial architecture balances expansive interstellar visual canvases with modular utility docks.
+
+- **Grid Structure**: A 12-column responsive fluid grid on desktop (`margin: 2.5rem`, `gutter: 1.5rem`) transitioning to a 4-column fluid layout on mobile (`margin: 1.25rem`, `gutter: 1rem`).
+- **Layout Zones**:
+  - **The Celestial Canvas**: Background viewport displaying dynamic, slow-shifting astronomical dust gradients and reactive album artwork reflections.
+  - **The Floating Navigation Orb/Rail**: Fixed glassmorphic utility bar anchored laterally on desktop and as a persistent floating dock at the bottom of mobile viewports.
+  - **The Sound Horizon**: Persistent player anchored to the bottom edge, using heavy backdrop blur to float seamlessly over content grids without clipping scrolling feeds.
+- **Responsive Adaptations**: Dense multi-card carousel grids on desktop collapse into smoothly swipeable horizontal rails with peek edges on mobile devices.
+
+## Elevation & Depth
+
+Depth is established via **Translucent Crystalline Refraction** and **Atmospheric Chromatic Haloing** rather than traditional drop shadows.
+
+- **Glass Substrates**: Surfaces employ background blur (`backdrop-filter: blur(16px)`) over a semi-opaque cosmic navy matrix (`rgba(11, 14, 35, 0.65)`). This allows underlaid astronomical art to bleed softly into upper UI surfaces.
+- **Starlight Rim Borders**: All cards and panels feature a 1px composite border (`rgba(255, 255, 255, 0.12)` along top and left edges, tapering to `rgba(255, 255, 255, 0.03)` on lower edges) simulating directional light from celestial bodies.
+- **Ambient Chromatic Glows**: Elevated and interactive focal points cast diffuse photon halos:
+  - Primary Active Element: `box-shadow: 0 0 24px -4px rgba(139, 92, 246, 0.45)`
+  - Cyan Accent Cue: `box-shadow: 0 0 20px -3px rgba(6, 182, 212, 0.5)`
+  - Hover Elevate State: Enhances blur radius and expands the primary color's outer glow by 50% without altering physical scale.
+
+## Shapes
+
+The shape system leverages curvature to emulate spacecraft viewports and celestial lenses.
+
+- **Standard Containers & Cards**: Configured with `rounded-2xl` (1rem to 1.5rem depending on viewport size), providing an organic yet modern silhouette that softens geometric grid tension.
+- **Badges, Action Buttons, and Scrubber Handles**: Strict pill forms (`border-radius: 9999px`) creating distinct touch targets that mirror capsule architecture and glowing laser conduits.
+- **Artwork Thumbnails**: Bound to matching container curves with inset starlight borders (`border-white/10`) to seal imagery seamlessly into glass modules.
+
+## Components
+
+### Buttons & Action Controls
+- **Primary Playback Buttons**: Circular or pill-shaped, coated in gradient violet-to-neon-purple (`linear-gradient(135deg, #8B5CF6, #A855F7)`), backed by a persistent ambient purple flare (`0 0 20px rgba(139, 92, 246, 0.5)`). Active icons are crisp white.
+- **Secondary Action Buttons**: Translucent glass (`rgba(255, 255, 255, 0.05)`), surrounded by a 1px border (`rgba(255, 255, 255, 0.15)`). On hover, rim border transitions to `#22D3EE` with a subtle electric cyan aura.
+- **Ghost/Tertiary Controls**: Inset lavender glyphs (`#C4B5FD`) transitioning to radiant white (`#FFFFFF`) with zero container fill.
+
+### Translucent Glass Cards
+- Built using `rounded-2xl`, filled with `rgba(11, 14, 35, 0.70)`, and backed by `backdrop-blur-md`.
+- Encased in a delicate `border: 1px solid rgba(255, 255, 255, 0.1)`.
+- Upon hover, the upper-right corner reflects a faint radial violet flare (`radial-gradient(circle at top right, rgba(168, 85, 247, 0.15), transparent 70%)`).
+
+### Input Fields & Search Bars
+- Recessed pill-shaped cosmic obsidian tracks (`rgba(7, 8, 20, 0.85)`), featuring an inset inner shadow simulating depth.
+- Border shifts on focus from `rgba(255, 255, 255, 0.1)` to solid electric cyan (`#06B6D4`), producing a localized cyan aura.
+- Placeholder text styled in muted lavender (`#94A3B8`), accompanied by celestial search glyphs (e.g., orbital rings, starlight pins).
+
+### Chips & Metadata Badges
+- Pill-shaped (`rounded-full`), padded with `0.25rem 0.75rem`.
+- Monospace-styled audio qualities (e.g., `HI-RES LOSSLESS`, `DOLBY ATMOS`) render in `Space Grotesk` with `label-sm` sizing, featuring subtle cyan borders (`rgba(6, 182, 212, 0.3)`) and dark obsidian backgrounds.
+
+### Selection Controls (Checkboxes & Radios)
+- Rounded geometric squares and circles with 1.5px borders in muted lavender.
+- Active states flood with `#8B5CF6`, displaying electric cyan check marks and glowing ambient pulses.
+
+### Track Lists & Audio Scrubber
+- **Track Rows**: Neutral background on rest; transitions to frosted starlight shimmer (`rgba(255, 255, 255, 0.04)`) on hover with rounded-xl corners. Active tracks feature an animated miniature cyan equalizer.
+- **Audio Scrubber Bar**: 4px track depth in translucent obsidian (`rgba(255, 255, 255, 0.1)`), filled with a gradient sweep from `#8B5CF6` to `#22D3EE`. The thumb slider is a glowing 12px pill casting a neon halo across the timeline.
